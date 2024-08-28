@@ -11,6 +11,7 @@ body{
     font-family: "Mukta", sans-serif;
 }
 
+
 /*primeira parte*/
 #first{
     position: relative;
@@ -115,5 +116,12 @@ footer{
     font-family: "Mukta", sans-serif;
     position: relative;
     margin-bottom: 150px;
+}
+#icons {
+    display: flex;
+    margin-left: 840px;
+    position: absolute;
+    margin-top: -120px;
+    gap: 40px;
 }
 
