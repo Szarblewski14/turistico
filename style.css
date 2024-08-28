@@ -3,6 +3,78 @@ body{
     background-size: cover;
 }
 
+#nav{
+    background-color: rgba(255, 0, 0, 0.541);
+}
+#nav p, a{
+    color: white;
+    font-family: "Mukta", sans-serif;
+}
+
+/*primeira parte*/
+#first{
+    position: relative;
+    margin-bottom: 150px;
+}
+#first h1{
+    margin-right: 630px;
+    margin-bottom: 20px;
+}
+#first p{
+    margin-right: 675px;
+    margin-top: 80px;
+}
+
+#first .descrition{
+    margin: auto;
+}
+#first img{
+    padding: 20px;
+}
+
+/*segunda parte */
+#two{
+    position: relative;
+    margin-bottom: 100px;
+}
+#two img{
+    padding: 20px;
+}
+#two h2{
+    margin-right: 550px;
+}
+#two p{
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+/*terceira parte*/
+#three {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#three h2{
+    margin-right: 600px;
+}
+#three p{
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+
+/*quarta parte*/
+#four{
+    position: relative;
+    margin-bottom: 200px;
+}
+#four h2{
+    margin-right: 580px;
+}
+#four p{
+    font-size: 20px;
+}
+
+
 p{
     font-size: 16px;
     color: rgba(255, 83, 83, 0.836);
@@ -13,7 +85,6 @@ p{
 #container{
     width: 1150px;
     margin: auto;
-    background-color: antiquewhite;
     border-radius: 24px;
 }
 
@@ -27,6 +98,7 @@ h1, h2{
     color: #333333;
     font-size: 12px;
     font-family: "Mukta", sans-serif;
+    position: relative;
 }
 
 img{
@@ -34,5 +106,14 @@ img{
     height: 430px;
     display: flex;
     margin: auto;
-    padding: 60px;
+    border-radius: 28px;
+
 }
+
+footer{
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    position: relative;
+    margin-bottom: 150px;
+}
+
